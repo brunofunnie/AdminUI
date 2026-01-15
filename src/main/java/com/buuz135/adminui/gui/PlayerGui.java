@@ -221,6 +221,7 @@ public class PlayerGui extends InteractiveCustomUIPage<PlayerGui.SearchGuiData> 
         var i = 0;
         for (String name : items) {
             var playerRef = Universe.get().getPlayer(name, NameMatching.EXACT);
+            if (playerRef == null || !playerRef.isValid() || playerRef.getReference() == null) continue;
             var player = store.getComponent(playerRef.getReference(), Player.getComponentType());
             var entityStatMap = store.getComponent(playerRef.getReference(), EntityStatsModule.get().getEntityStatMapComponentType());
             var health = EntityStatType.getAssetMap().getIndex("Health");
