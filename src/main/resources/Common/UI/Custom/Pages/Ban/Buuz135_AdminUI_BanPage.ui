@@ -12,7 +12,7 @@ $Nav = "../Nav/Buuz135_AdminUI_TopNavigationBar.ui";
 
 $C.@PageOverlay {
   $Nav.@AdminUITopNavigationBar #AdminUITopNavigationBar {}
-  $C.@Container {
+  $C.@DecoratedContainer {
     Anchor: (Width: 600, Height: 669);
 
 

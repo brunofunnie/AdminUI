@@ -27,7 +27,7 @@ $C.@PageOverlay {
 
   $Nav.@AdminUITopNavigationBar #AdminUITopNavigationBar {}
 
-  $C.@Container {
+  $C.@DecoratedContainer {
     Anchor: (Width: 600, Height: 669);
 
 

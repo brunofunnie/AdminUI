@@ -264,7 +264,7 @@ Button #FullPlayerEntry {
               SearchInputStyle: DropdownBoxSearchInputStyle(
                 Anchor: (Height: 20),
                 Padding: (Left: 28, Right: 24),
-                PlaceholderText: %customUI.searchPlaceholder,
+                PlaceholderText: %server.customUI.searchPlaceholder,
                 PlaceholderStyle: (TextColor: #3d5a85, RenderUppercase: true, FontSize: 14),
                 Icon: (Texture: "Common/SearchIcon.png", Width: 16, Height: 16, Offset: 9),
                 ClearButtonStyle: $C.@ClearButtonStyle
