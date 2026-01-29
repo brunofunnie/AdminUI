@@ -2,6 +2,7 @@
 
 * Improved player list for multiworld setups, closes #15
 * Fixed warps following the players, closes #12
+* Fixed saving backup GUI checking the search field, closes #7
 
 # 1.0.4
 

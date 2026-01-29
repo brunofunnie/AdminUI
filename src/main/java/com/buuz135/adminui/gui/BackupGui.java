@@ -123,7 +123,6 @@ public class BackupGui extends InteractiveCustomUIPage<BackupGui.SearchGuiData> 
                 AdminUI.getInstance().getBackupConfiguration().setRetentionAmount(this.retentionAmount);
                 AdminUI.getInstance().getBackupConfiguration().setBackupFrequency(this.backupFrequency);
                 AdminUI.getInstance().getBackupConfiguration().syncSave();
-                this.searchQuery = data.searchQuery.trim().toLowerCase();
                 UICommandBuilder commandBuilder = new UICommandBuilder();
                 UIEventBuilder eventBuilder = new UIEventBuilder();
                 this.buildList(ref, commandBuilder, eventBuilder, store);
